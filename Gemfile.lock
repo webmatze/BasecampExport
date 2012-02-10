@@ -28,6 +28,9 @@ GEM
       faraday (~> 0.7)
       multi_json (~> 1.0)
     rack (1.4.1)
+    ruby-ole (1.2.11.2)
+    spreadsheet (0.6.8)
+      ruby-ole (>= 1.0)
     xml-simple (1.1.1)
 
 PLATFORMS
@@ -36,3 +39,4 @@ PLATFORMS
 DEPENDENCIES
   basecamp
   clamp
+  spreadsheet
